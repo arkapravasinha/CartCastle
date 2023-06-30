@@ -45,7 +45,7 @@ namespace CartCastle.Domain
         public void PaymentFailed(Guid transactionId)
         {
             if (transactionId == null || transactionId == Guid.Empty) throw new ArgumentNullException(nameof(transactionId));
-            this.Append(new OrderEvents.PaymentSuccessfull(this, transactionId));
+            this.Append(new OrderEvents.PaymentFailed(this, transactionId));
         }
         protected override void When(IDomainEvent<Guid> @event)
         {

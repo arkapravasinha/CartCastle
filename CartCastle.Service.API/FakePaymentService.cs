@@ -13,7 +13,8 @@ namespace CartCastle.Service.API
                     OrderId = createPaymentDto.OrderId,
                     OrderValue = createPaymentDto.OrderValue,
                     TransactionId = Guid.NewGuid(),
-                    IsSuccessfull = rand.NextDouble() >= 0.5
+                    IsSuccessfull = rand.NextDouble() >= 0.5,
+                    PaymentMethod="CARD"
                 };
         }
     }
