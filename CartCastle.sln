@@ -27,7 +27,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartCastle.Worker.Notificat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartCastle.Service.API", "CartCastle.Service.API\CartCastle.Service.API.csproj", "{B9E50560-EF04-438B-BA0C-4C15EE450D7F}"
 EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{478857ED-417F-472A-BBC2-200BEEFE5220}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DockerCompose", "DockerCompose", "{25684FD1-04F9-4D95-BA6D-CD9363E07E7E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,10 +71,6 @@ Global
 		{B9E50560-EF04-438B-BA0C-4C15EE450D7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9E50560-EF04-438B-BA0C-4C15EE450D7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9E50560-EF04-438B-BA0C-4C15EE450D7F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{478857ED-417F-472A-BBC2-200BEEFE5220}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{478857ED-417F-472A-BBC2-200BEEFE5220}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{478857ED-417F-472A-BBC2-200BEEFE5220}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{478857ED-417F-472A-BBC2-200BEEFE5220}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

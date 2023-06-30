@@ -1,8 +1,1 @@
-version: '3.4'
 
-services:
-  cartcastle.service.api:
-    environment:
-      - ASPNETCORE_ENVIRONMENT=Development
-    ports:
-      - "80"
