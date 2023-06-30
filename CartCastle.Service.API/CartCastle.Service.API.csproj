@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerComposeProjectPath>..\docker-compose.dcproj</DockerComposeProjectPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Hellang.Middleware.ProblemDetails" Version="6.5.1" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.7" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.17.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CartCastle.Domain\CartCastle.Domain.csproj" />
+    <ProjectReference Include="..\CartCastle.Persistence.EventStore\CartCastle.Persistence.EventStore.csproj" />
+    <ProjectReference Include="..\CartCastle.Services.Core.Common\CartCastle.Services.Core.Common.csproj" />
+    <ProjectReference Include="..\CartCastle.Services.Core.Persistence.Mongo\CartCastle.Services.Core.Persistence.Mongo.csproj" />
+    <ProjectReference Include="..\CartCastle.Transport.Kafka\CartCastle.Transport.Kafka.csproj" />
+  </ItemGroup>
+
+</Project>

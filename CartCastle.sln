@@ -1,0 +1,95 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{611B1E2B-2BC9-418D-90C8-093678667EEA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CartCastle.Common", "CartCastle.Common\CartCastle.Common.csproj", "{FF7C4335-4FC2-4CE6-9431-0749AE8562B3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CartCastle.Domain", "CartCastle.Domain\CartCastle.Domain.csproj", "{154E524E-D230-4429-AF91-397C3BDD3806}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{B9B65A9B-A236-46F8-A507-F6792E08F202}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CartCastle.Persistence.EventStore", "CartCastle.Persistence.EventStore\CartCastle.Persistence.EventStore.csproj", "{FE87C65E-09D7-4918-AC57-9E099249C2EE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CartCastle.Transport.Kafka", "CartCastle.Transport.Kafka\CartCastle.Transport.Kafka.csproj", "{35ED532A-0C9D-4837-9314-710450D012A2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CartCastle.Services.Core.Persistence.Mongo", "CartCastle.Services.Core.Persistence.Mongo\CartCastle.Services.Core.Persistence.Mongo.csproj", "{71C06685-C1A1-49E9-9A5C-0DB5EF4152D6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CartCastle.Services.Core.Common", "CartCastle.Services.Core.Common\CartCastle.Services.Core.Common.csproj", "{FE0E53E1-FA17-4989-B58F-A1360E99A7AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{AC792BAF-8B61-49E5-A8A4-024624FE7F34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartCastle.Worker.Core", "CartCastle.Worker.Core\CartCastle.Worker.Core.csproj", "{82712216-B3A1-4EEC-9D8B-7EBB2F39425F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartCastle.Worker.Notification", "CartCastle.Worker.Notification\CartCastle.Worker.Notification.csproj", "{16B0AC95-D450-42A9-8AC4-A766F44F1ACC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartCastle.Service.API", "CartCastle.Service.API\CartCastle.Service.API.csproj", "{B9E50560-EF04-438B-BA0C-4C15EE450D7F}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{478857ED-417F-472A-BBC2-200BEEFE5220}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF7C4335-4FC2-4CE6-9431-0749AE8562B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF7C4335-4FC2-4CE6-9431-0749AE8562B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF7C4335-4FC2-4CE6-9431-0749AE8562B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF7C4335-4FC2-4CE6-9431-0749AE8562B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{154E524E-D230-4429-AF91-397C3BDD3806}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{154E524E-D230-4429-AF91-397C3BDD3806}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{154E524E-D230-4429-AF91-397C3BDD3806}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{154E524E-D230-4429-AF91-397C3BDD3806}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE87C65E-09D7-4918-AC57-9E099249C2EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE87C65E-09D7-4918-AC57-9E099249C2EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE87C65E-09D7-4918-AC57-9E099249C2EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE87C65E-09D7-4918-AC57-9E099249C2EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35ED532A-0C9D-4837-9314-710450D012A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35ED532A-0C9D-4837-9314-710450D012A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35ED532A-0C9D-4837-9314-710450D012A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35ED532A-0C9D-4837-9314-710450D012A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71C06685-C1A1-49E9-9A5C-0DB5EF4152D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71C06685-C1A1-49E9-9A5C-0DB5EF4152D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71C06685-C1A1-49E9-9A5C-0DB5EF4152D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71C06685-C1A1-49E9-9A5C-0DB5EF4152D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE0E53E1-FA17-4989-B58F-A1360E99A7AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE0E53E1-FA17-4989-B58F-A1360E99A7AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE0E53E1-FA17-4989-B58F-A1360E99A7AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE0E53E1-FA17-4989-B58F-A1360E99A7AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82712216-B3A1-4EEC-9D8B-7EBB2F39425F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82712216-B3A1-4EEC-9D8B-7EBB2F39425F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82712216-B3A1-4EEC-9D8B-7EBB2F39425F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82712216-B3A1-4EEC-9D8B-7EBB2F39425F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16B0AC95-D450-42A9-8AC4-A766F44F1ACC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16B0AC95-D450-42A9-8AC4-A766F44F1ACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16B0AC95-D450-42A9-8AC4-A766F44F1ACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16B0AC95-D450-42A9-8AC4-A766F44F1ACC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9E50560-EF04-438B-BA0C-4C15EE450D7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9E50560-EF04-438B-BA0C-4C15EE450D7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9E50560-EF04-438B-BA0C-4C15EE450D7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9E50560-EF04-438B-BA0C-4C15EE450D7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{478857ED-417F-472A-BBC2-200BEEFE5220}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{478857ED-417F-472A-BBC2-200BEEFE5220}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{478857ED-417F-472A-BBC2-200BEEFE5220}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{478857ED-417F-472A-BBC2-200BEEFE5220}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FF7C4335-4FC2-4CE6-9431-0749AE8562B3} = {611B1E2B-2BC9-418D-90C8-093678667EEA}
+		{154E524E-D230-4429-AF91-397C3BDD3806} = {611B1E2B-2BC9-418D-90C8-093678667EEA}
+		{FE87C65E-09D7-4918-AC57-9E099249C2EE} = {B9B65A9B-A236-46F8-A507-F6792E08F202}
+		{35ED532A-0C9D-4837-9314-710450D012A2} = {B9B65A9B-A236-46F8-A507-F6792E08F202}
+		{71C06685-C1A1-49E9-9A5C-0DB5EF4152D6} = {B9B65A9B-A236-46F8-A507-F6792E08F202}
+		{82712216-B3A1-4EEC-9D8B-7EBB2F39425F} = {AC792BAF-8B61-49E5-A8A4-024624FE7F34}
+		{16B0AC95-D450-42A9-8AC4-A766F44F1ACC} = {AC792BAF-8B61-49E5-A8A4-024624FE7F34}
+		{B9E50560-EF04-438B-BA0C-4C15EE450D7F} = {AC792BAF-8B61-49E5-A8A4-024624FE7F34}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9FC8C31F-C895-4C23-8C54-72E805BF3F89}
+	EndGlobalSection
+EndGlobal
