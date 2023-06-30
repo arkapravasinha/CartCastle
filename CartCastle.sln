@@ -28,6 +28,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartCastle.Service.API", "CartCastle.Service.API\CartCastle.Service.API.csproj", "{B9E50560-EF04-438B-BA0C-4C15EE450D7F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DockerCompose", "DockerCompose", "{25684FD1-04F9-4D95-BA6D-CD9363E07E7E}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
